@@ -7,6 +7,6 @@ SINGULARITYIMAGE=../../hissl_deepsmile.sif
 
 export TORCH_HOME=. && singularity exec --no-home \
       --bind ../../../hissl:/hissl \
-      --pwd /hissl/model_zoo/tcga-bc \
+      --pwd /hissl/model_zoo/tcga-crck \
       $SINGULARITYIMAGE \
       python download_imagenet_model.py

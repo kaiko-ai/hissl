@@ -44,7 +44,7 @@ do
     # Go over a single WSI, compute the mask, and save tiling metadata without saving the tiles.
     echo "Preprocessing $line ..."
     singularity exec --no-home \
-      --bind ../../../../hissl:/hissl \
+      \ #--bind ../../../../hissl:/hissl \
       --pwd /hissl/tools/reproduce_deepsmile/3_compute_masks_for_tcga_bc \
       $SINGULARITYIMAGE \
       dlup wsi tile \

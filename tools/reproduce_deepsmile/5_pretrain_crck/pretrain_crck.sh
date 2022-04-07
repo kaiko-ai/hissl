@@ -3,7 +3,7 @@
 ROOT=../../../../hissl
 
 #HARDWARE SETUP
-NUM_WORKERS=3  # Increase this if GPU utilization is low and if your CPU hardware allows this.
+NUM_WORKERS=1  # Increase this if GPU utilization is low and if your CPU hardware allows this.
 NUM_NODES=1
 NUM_GPUS=1
 BATCH_SIZE_PER_GPU=128
